@@ -1,8 +1,12 @@
-<h1>Questions#ask</h1>
-<p>Find me in app/views/questions/ask.html.erb</p>
+<h1>Stupid Coaching</h1>
 
-<form action="/answer">
+<p>Ask your coach anything:</p>
 
-  <input type="text" name="response">
-  <input type="submit" value="Submit">
+<form action="/answer" class="form-inline">
+  <div class="input-group input-group-lg">
+    <input type="text" name="question" class="form-control">
+    <span class="input-group-btn">
+      <input type="submit" value="Ask" class="btn btn-primary">
+    </span>
+  </div>
 </form>
